@@ -1,0 +1,374 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+        <title>Powertalk</title>
+        <script src="js/jquery-1.11.2/jquery-1.11.2.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+        <link rel="stylesheet" href="css/styles.css" />
+    </head> 
+    <body>
+
+        <div data-role="page" id="page-main">
+
+            <div id="main-panel" data-display="overlay" data-role="panel">
+                <ul>
+                    <li class="sidebar-li"><a data-enhance="false" class="sidebar-button" href="#page-password">Password</a></li>
+                    <li class="sidebar-li"><a data-enhance="false" class="sidebar-button" href="#page-about">About</a></li>
+                </ul>
+            </div>
+
+            <div class="absolute-header" data-id="main-header" data-role="header">
+                <h1><a href="#main-panel"><img class="menu-pill" src="powertalk.png"></a>Powertalk</h1>
+            </div>
+
+
+            <div class="content" data-role="content">
+                <ul class="main-ul" data-role="listview">
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#powertalk">Powertalk Test</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-info">Powertalk Information</a></li>
+                    <li class="main-list"><a data-role="button" class="main-button" href="#page-dictionary-front">Dictionary</a></li>
+                    <li class="main-list"><a data-role="button" class="main-button" href="#page-resources">Resources</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div data-role="page" id="page-about">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                Powertalk
+                Version .1 Alpha
+            </div>
+        </div>
+
+        <div data-role="page" id="page-loser">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Losers</h3>
+                <p>Losers are the dispossessed people in society who know they are dispossessed.</p>
+                <p>An example of Losers is a group of coworkers at a large regional company. They have no real power over the day to day operations of their company, and thus a significant portion of their lives.</p>
+                <p>Losers are people who realize that this is a raw deal and respond in kind - they get meaning through outer activities - hobbies, social life and clubs.</p>
+                <p>To Losers, social life/belonging is the most important aspect of life.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-clueless">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Clueless</h3>
+                <p>Clueless are the dispossessed people in society who don't know they are dispossessed. In other words, "useful idiots".</p>
+                <p>The Clueless are frequently company men - middle managers and others who believe in organizations, but who don't benefit the most from them.</p>
+                <p>Clueless individuals tend to draw most of their meaning in life from the formal organizations (such as a company) in their lives.</p>
+                <p>They are typically over-achievers.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-sociopath">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Sociopath</h3>
+                <p>Sociopaths are people who want to understand and have as much control as possible over reality.</p>
+                <p>Sociopaths try to extract understanding and value. They are frequently CEOs and executives.</p>
+                <p>Sociopaths frequently use Powertalk to get what they want and to say something without saying it directly.</p>
+                <p>They are are oriented towards winning.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-info">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+
+            <div data-role="content" class="center-content">
+                <ul class="main-ul" data-role="listview">
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight">Straight Talk</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-power">Powertalk</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-game">Gametalk</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-baby">Babytalk</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-posture">Posturetalk</a></li>                 
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-straight">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Straight Talk</h3>
+                <p>Straight Talk is communication that has the goal of being about reality or transmitting information directly. What is said in Straight Talk is meant directly.
+                    Everyone can communicate in Straight Talk.</p>
+                <ul class="main-ul" data-role="listview">
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-example-1">Example 1</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-example-2">Example 2</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-example-3">Example 3</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-example-4">Example 4</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-groups">Groups</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-test">Test</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-straight-example-1">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Straight Talk</h3>
+                <p>Straight Talk is about directly conveying information in an easily understandable manner. Everyone uses Straight Talk at some point or another.</p>
+                <p><strong>Example 1:</strong></p>
+                <p>Two roommates are at their apartment. One of them says to the other:</p>
+                <p><em>"Hey, do you want to get ice cream?"</em></p>
+                <p>There is no social status at stake here. There is no argument, hidden motive or any other reason. One of the roommates just wants to know if the other one wants ice cream.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-straight-example-2">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Straight Talk</h3>
+                <p>Straight Talk can happen in literally any environment.</p>
+                <p><strong>Example 2:</strong></p>
+                <p>A guy is sitting at a subway stop. A girl comes up to him in a friendly, but not overly friendly way. She asks in a matter-of-fact voice:</p>
+                <p><em>"Do you know what time it is? My phone is dead."</em></p>
+                <p></p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-straight-example-3">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Straight Talk</h3>
+                <p>Powertalk is frequently taken for Straight Talk.</p>
+                <p><strong>Example 3:</strong></p>
+                <p>A group of five guys is sitting around. Guy 1 says something awkward and another guy responds:</p>
+                <p>Guy 2 - <em>"What is wrong with you?"</em></p>
+                <p>Guy 1 - <em>"I have ADD."</em></p>
+                <p>The actual meaning of this phrase is something along the lines of, "shut up" or "you're awkward". Guy 1 is interpreting it as Straight Talk. Literally, why are you acting the way you are?</p>
+                <p>This shows a lack of social competence.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-straight-example-4">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Straight Talk</h3>
+                <p>Babytalk is intended to be taken as Straight Talk by people who are opposed to your interests.</p>
+                <p><strong>Example 4:</strong></p>
+                <p>A guy named Ben applies for a promotion. His boss doesn't feel like he's capable:</p>
+                <p><em>"You're doing too great of a job in your current position. We can't promote you right now. Just apply again next year."</em></p>            
+            </div>
+        </div>
+
+        <div data-role="page" id="page-straight-group">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Straight Talk</h3>
+                <p>Straight Talk Groups</p>
+                <p>All groups use Straight Talk occasionally. Straight Talk communication is extremely common in engineering professions as well as in the scientific community.</p>
+                <p>Politicians almost never speak completely in Straight Talk.</p>
+                <p>Straight Talk is also the primary mode of communication in all male groups.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-power">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>      
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Powertalk</h3>
+                <p>Powertalk is communication that has the goal of communicating additional information subtly or deftly. This can be for demonstrating social status, avoiding blame, or being less blunt.
+                    People who are adept at Powertalk are often considered more, "tactful". Powertalk is the language of Sociopaths.</p>
+                <ul class="main-ul" data-role="listview">
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-power-example-1">Example 1</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-power-example-2">Example 2</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-power-example-3">Example 3</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-power-groups">Groups</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-power-test">Test</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-power-example-1">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Powertalk</h3>
+                <p>Powertalk is the art of saying something without directly saying it.</p>
+                <p><strong>Example 1:</strong></p>
+                <p>A senior executive says to a junior executive:</p>
+                <p><em>"If you want to advance, you need to cut labor costs in your department."</em></p>
+                <p>On its face, this means exactly what it looks like it means - labor costs are high and need to be reduced. In reality, there's the hidden subtext that the only real way to reduce labor costs is to get people to work for less pay, or more likely lay people off.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-power-example-2">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Powertalk</h3>
+                <p>Powertalk is frequently used in relationship disputes.</p>
+                <p><strong>Example 2:</strong></p>
+                <p>A guy asks his girlfriend what's wrong, she responds with:</p>
+                <p><em>"Nothing."</em></p>
+                <p>This is a well known dating trope and it has been a huge source for comedy and confusion. What does nothing mean in this context? It has several meanings.</p>
+                <p>Meaning #1: Something is wrong and I want you to be able to discern that without having to tell you directly.</p>
+                <p>Meaning #2: If you aren't able to discern it, it possibly means you don't care about me as much as I thought you did.</p>
+                <p>Meaning #3: I don't want to talk about it. I want you to fix it.</p>
+                <p>The astute observer can probably think of several more. Some people (guys mostly) might say the woman is lying in this situation. That is wrong. She's just using Powertalk.</p>
+                <p>Women achieve verbal fluency earlier than men do, and that may suggest that the average woman naturally understands Powertalk to a greater extent, naturally, than the average man does.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-power-example-3">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Powertalk</h3>
+                <p>Straight Talk can be confused for Powertalk</p>
+                <p><strong>Example 3:</strong></p>
+                <p>Let's go back to the guy and his girlfriend in Example 2, about a half hour earlier:</p>
+                <p><em>"Hey, want to come to the gym with me tomorrow? I think it'd be good for you."</em></p>
+                <p>This is a sentence that can be interpreted in both Powertalk and Straight Talk. The boyfriend in this scenario simply thinks he's trying to get his girlfriend to live a healthier life. There's no ulterior motive.</p>
+                <p>However, he lacks the tact to know that sometimes people interpret Straight Talk as Powertalk. In this instance, the girlfriend might interpret his statement as, "Wow, you're looking really out of shape lately." or even, "If you don't go to the gym, I'll leave you."</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-game">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Gametalk</h3>
+                <p>Gametalk is group language between Losers. It is primarily for ensuring group cohesion and ensuring everyone in a group feels good.</p>
+                <ul class="main-ul" data-role="listview">
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-game-example-1">Example 1</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-game-example-2">Example 2</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-game-groups">Groups</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-game-test">Test</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-game-example-1">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Gametalk</h3>
+                <p>Gametalk is used to mutually make people feel better about their losses</p>
+                <p><strong>Example 1:</strong></p>
+                <p>Two teenage boys try out for the football team. They don't make it:</p>
+                <p>Guy 1 - <em>"Well it doesn't really matter anyway. We have a lot of other things we can do."</em></p>
+                <p>Guy 2 - <em>"Yeah! I bet we're better than all of them at smoking people at Battlefield Duty 2252!"</em></p>
+                <p>These two have decided to massage their bruised egos by making each other feel better about not succeeding. The situation has been changed from a lack of success, to a positive situation.</p>
+                <p>This is pure rationalization to avoid ego bruising.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-game-example-2">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Gametalk</h3>
+                <p>Gametalk is used to lie to yourself and to others - unconsciously</p>
+                <p><strong>Example 2:</strong></p>
+                <p>Two girls in a sorority are talking:</p>
+                <p>Girl 1 - <em>"So are you dating Chad now? You guys have been hooking up for weeks."</em></p>
+                <p>Girl 2 - <em>"He's just not ready yet, you know? I definitely know he's into me, he's just scared to commit."</em></p>
+                <p>Savvy people might recognize that girl 2 is most likely wrong about her analysis, and Chad in question does not intend to commit.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-game-example-3">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Gametalk</h3>
+                <p>Gametalk helps lubricate social situations</p>
+                <p><strong>Example 3:</strong></p>
+                <p>At a company party, to a coworker that plays the guitar:</p>
+                <p>Group of Coworkers - <em>"You're the best guitar player ever. That's your best talent."</em></p>
+                <p>This is all just feel good language. It makes the guitarist feel better about himself and the group. Nobody, not even the guitarist believes that his best skill is as a guitarist.</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-posture">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Posturetalk</h3>
+                <p>Posturetalk is faux Powertalk when there is nothing on the line.</p>
+                <ul class="main-ul" data-role="listview">
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-example-1">Example 1</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-example-2">Example 2</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-groups">Groups</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-test">Test</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="page-baby">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="content" class="center-content">
+                <h3 class="center-h3">Babytalk</h3>
+                <p>Babytalk is meaningless language from Sociopaths and Losers that placates the Clueless.</p>
+                <ul class="main-ul" data-role="listview">
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-examples">Examples</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-adv-examples">Advanced Examples</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-groups">Groups</a></li>
+                    <li class="main-list"><a data-role="button" data-prefetch class="main-button" href="#page-straight-test">Test</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <div data-add-back-btn="true" data-role="page" id="powertalkcalculator">
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div class="tablist-content">
+
+                <div data-role="content" class="content">
+                    <a data-ajax="false" href="#testPage" data-role="button">Start Test!</a>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="js/test/app.js"></script>
+        <script src="js/test/test.js"></script>
+        <div data-role="page" id="testPage">
+
+            <div class="absolute-header" data-id="main-header" data-role="header"><a href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+
+            <div data-role="content">
+                <div class="testdisplay"></div>
+            </div>
+            <script src="js/test/app.js"></script>
+            <script src="js/test/test.js"></script>
+        </div>
+
+        <div data-role="page" id="page-dictionary-front">
+            <script>
+
+                $.get("dictionary.json", function(json) {
+                    var dictSet = document.getElementById("collapsiblesetForFilterChildren")
+                    json.terms.forEach(function(terms) {
+                        var collapsible = document.createElement("div");
+                        collapsible.setAttribute("data-role", "collapsible");
+                        var itemTitle = document.createElement("h3");
+                        itemTitle.innerHTML = terms.name;
+                        var elements = document.createElement("div");
+                        elements.setAttribute("class", "elements");
+                        elements.setAttribute("data-input", "#searchForCollapsibleSetChildren");
+                        elements.setAttribute("data-filter", "true");
+                        var p = document.createElement("p");
+                        p.innerHTML = terms.definition;
+
+                        elements.appendChild(p)
+                        collapsible.appendChild(itemTitle);
+                        collapsible.appendChild(elements);
+                        dictSet.appendChild(collapsible);
+                    })
+                }, "json");
+            </script>
+            <div class="absolute-header" data-id="main-header" data-role="header"><a class="back-button" href="#" data-rel="back">BACK</a><h1>Powertalk</h1></div>
+            <div data-role="main" class="ui-content content">
+                <h3 class="center-h3">Dictionary Search</h3>
+                <form>
+                    <input data-type="search" id="searchForCollapsibleSetChildren">
+                </form>
+                <div data-role="collapsible-set" data-filter="true" data-children="> div, > div div ul li" data-inset="true" id="collapsiblesetForFilterChildren" data-input="#searchForCollapsibleSetChildren">
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

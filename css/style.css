@@ -1,0 +1,16 @@
+.main-button {
+    text-align: center !important;
+    margin: 0 auto !important;
+    border-radius: 2.3125em !important;
+    width: 50%;
+}
+.main-list {
+    margin-top:10px !important;
+    margin-bottom:10px !important;
+}
+#page-main {
+    background-color:#000;
+}
+.center-h3 {
+    text-align: center;
+}
